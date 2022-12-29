@@ -37,7 +37,7 @@ async function login(e){
       // TODO go to login
       localStorage.setItem("token",data.token)
       saveUser()
-      navigate('/')
+      navigate('/home')
       setApiError(null)
       setIsLoading(false)
     }
