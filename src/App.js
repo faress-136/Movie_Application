@@ -18,6 +18,7 @@ import Details from './Components/Details/Details';
 import Profile from './Components/Profile/Profile';
 import PeopleInfo from './Components/PeopleInfo/PeopleInfo';
 import MovieContextProvider from './Context/MovieContext';
+ 
 
 function App() {
 
