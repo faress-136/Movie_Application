@@ -49,6 +49,12 @@ async function login(e){
   
 }
 
+  // "homepage": "https://faress-136.github.io/Movie_Application",
+  // "predeploy": "npm run build",
+  // "deploy": "gh-pages -d build",
+
+
+
 function validateLogin(){
   const schema = Joi.object({
     email: Joi.string().email({ minDomainSegments: 2, tlds: {allow:false} }).messages({
