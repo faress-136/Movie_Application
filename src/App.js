@@ -49,7 +49,6 @@ useEffect(()=>{
   const routers  = createBrowserRouter([
     {path:"/", element:<MainLayout userData= {userData} logout={logout}/>, children:[
       {index:true, element:<ProtectedRoute userData= {userData}> <Home/> </ProtectedRoute>},
-      {path:"Movie_Application/", element:<ProtectedRoute userData= {userData}><Home/></ProtectedRoute>},
       {path:"register", element: <Register/>},
       {path:"login", element: <Login saveUser={saveUser} />},
       {path:"movies", element:<ProtectedRoute userData= {userData}> <Movies/> </ProtectedRoute>},
